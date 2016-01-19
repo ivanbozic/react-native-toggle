@@ -17,9 +17,22 @@ Run your project (Cmd+R)
 
 ### Android
 
-copy java files under `./android` to [your project's name]/android/app/src/main/java/...[your package path]/
+copy files under `./android` to `your project root path`
 
-edit file [your project's name]/android/app/src/main/java/...[your package path]/`MainActivity.java`
+edit file `[your project's name]/android/app/src/main/java/com/[your package name]/MainActivity.java`
+
+add
+
+```java
+
+...
+import java.util.List;
+import com.horcrux.toggle.*; // <------- import package
+
+public class MainActivity extends ReactActivity {
+...
+
+```
 
 ```java
     ...
@@ -141,3 +154,8 @@ const styles = StyleSheet.create({
 });
 AppRegistry.registerComponent('ToggleExample', () => ToggleExample);
 ```
+
+
+## Run example
+
+Just cd to `./Example` and run `npm install`

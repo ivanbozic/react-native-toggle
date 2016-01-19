@@ -1,4 +1,4 @@
-package com.marry;
+package com.horcrux.toggle;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

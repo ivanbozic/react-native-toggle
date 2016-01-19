@@ -1,4 +1,4 @@
-package com.marry;
+package com.horcrux.toggle;
 
 import android.support.annotation.Nullable;
 import android.view.View;

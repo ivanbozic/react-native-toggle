@@ -1,11 +1,12 @@
 {
-  "name": "ToggleExample",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "react-native start"
-  },
-  "dependencies": {
-    "react-native": "^0.18.0"
-  }
+    "name": "ToggleExample",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "react-native start"
+    },
+    "dependencies": {
+        "react-native": "^0.18.0",
+        "react-native-modal": "^1.0.1"
+    }
 }
