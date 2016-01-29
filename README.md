@@ -1,4 +1,4 @@
-### react-native-root-toggle
+### react-native-toggle
 ---
 
 A React Native component that allows you to use native property to `hide` or `show` children components inside:
