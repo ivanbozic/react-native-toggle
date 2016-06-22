@@ -1,9 +1,9 @@
-import React, {
+import React, {Component, PropTypes} from 'react';
+import {
     requireNativeComponent,
-    View,
-    Component,
-    PropTypes
+    View
 } from 'react-native';
+
 
 let viewPropTypes = View.propTypes;
 
