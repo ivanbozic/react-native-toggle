@@ -1,13 +1,13 @@
 {
-    "version": "1.0.3",
+    "version": "1.1.0",
     "name": "react-native-toggle",
     "repository": {
         "type": "git",
-        "url": "https://github.com/magicismight/react-native-toggle"
+        "url": "https://github.com/ivanbozic/react-native-toggle"
     },
     "license": "MIT",
     "main": "./Toggle.js",
-    "description": "hide or show react native`s component",
+    "description": "Hide or show a component.",
     "keywords": [
         "react-component",
         "react-native",

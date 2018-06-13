@@ -1,6 +1,6 @@
-#import "RCTViewManager.h"
-#import "RCTBridge.h"
-#import "RCTView.h"
+#import <React/RCTViewManager.h>
+#import <React/RCTBridge.h>
+#import <React/RCTView.h>
 
 @interface RCTToggleManager : RCTViewManager
 @end
