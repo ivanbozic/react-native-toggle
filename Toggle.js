@@ -1,14 +1,13 @@
-import React, {Component, PropTypes} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
     requireNativeComponent,
     View
 } from 'react-native';
 
-
 let viewPropTypes = View.propTypes;
 
-
-class Toggle extends Component{
+class Toggle extends Component {
     static displayName = 'Toggle';
     static propTypes = {
         ...viewPropTypes,
